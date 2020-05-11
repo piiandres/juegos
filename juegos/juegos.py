@@ -12,7 +12,7 @@ def main(args):
 	#Almacenara los juegos que juegue el jugador
 	sigo_jugando = True
 	while sigo_jugando:
-		diseno=[[sg.Text('Elegí juego a jugar')],[sg.Combo(['Hangman', 'TicTacToe','Otello','Salir'])],[sg.Button('Ok'), sg.Button('Cancel')]]
+		diseno=[[sg.Text('Elegí juego a jugar')],[sg.Combo(['Hangman', 'TicTacToe','Otello','Salir'])],[sg.Button('Ok')]]
 		window= sg.Window('juego',diseno)
 		s,opcion=window.read()
 		window.close()
