@@ -9,6 +9,7 @@ import PySimpleGUI as sg
 
 def main(args):
 	j=''
+	#Almacenara los juegos que juegue el jugador
 	sigo_jugando = True
 	while sigo_jugando:
 		diseno=[[sg.Text('Elegí juego a jugar')],[sg.Combo(['Hangman', 'TicTacToe','Otello','Salir'])],[sg.Button('Ok'), sg.Button('Cancel')]]
